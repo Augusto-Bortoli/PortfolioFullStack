@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+
+.bgc_black{
+    background-color: black;
+    opacity: .8;
+}
+
+.txt-cyan{
+    color:rgb(133,196,245);
+}
+/*Imagenes*/
+
+.imagen-laboral, .imagen-educacion{
+    max-width: 198px;
+    max-height: 120px;
+}
+
+.contenedor-imagen{
+    border: 1px solid rgb(133,196,245);
+    height: 122px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+/*Sobre mi*/
+
+/*Experiencia laboral*/
+.exp-laboral, .educacion{
+    margin: 0 0 0 50px;    
+}
+
+/*Educacion*/
+.contenido-educacion{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+.texto-edu{
+    margin-left: 30px;
+}
+.texto-edu h4{
+    margin: 0 0 8px -10px;
+}
+
+.educacion, .exp-laboral, .container-about{
+    border-bottom: 1.6px solid grey;
+}
+
+/*Proyectos*/
+#carouselExampleCaptions {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.carousel-caption > h5 > a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Footer*/
+.footer{
+    text-align: center;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}

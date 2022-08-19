@@ -1,0 +1,10 @@
+.imagen-banner{
+    max-width: 100%;
+    position: relative;
+}
+@media (min-width: 768px) {
+    .imagen-banner{
+        max-width: 90%;        
+        margin: 0px 5%;
+    }
+}

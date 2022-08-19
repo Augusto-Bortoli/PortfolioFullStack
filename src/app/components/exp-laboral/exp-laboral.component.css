@@ -1,0 +1,40 @@
+.exp-laboral, .educacion{
+    margin: 0 0 0 50px;    
+}
+
+.contenido-educacion{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.educacion, .exp-laboral, .container-about{
+    border-bottom: 1.6px solid grey;
+}
+
+.txt-cyan{
+    color:rgb(133,196,245);
+}
+
+.imagen-laboral{
+    max-width: 198px;
+    max-height: 120px;
+}
+
+.contenedor-imagen{
+    border: 1px solid rgb(133,196,245);
+    height: 122px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.texto-edu{
+    margin-left: 30px;
+}
+.texto-edu h4{
+    margin: 0 0 8px -10px;
+}
